@@ -20,9 +20,8 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=KUNJ1311&theme=dracula&hide_border=false&include_all_commits=false&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=KUNJ1311&theme=dracula&hide_border=false)<br/>
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kunj1311&show_icons=true&locale=en&layout=compact" alt="kunj1311" />
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=KUNJ1311&theme=dracula&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kunj1311&show_icons=true&locale=en" alt="kunj1311" /></p>
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=KUNJ1311&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
