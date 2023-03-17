@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Kunj Faladu</h1>
 
-![Visitor Count](https://profile-counter.glitch.me/KUNJ1311/count.svg)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=kunj1311&label=Profile%20views&color=0e75b6&style=flat" alt="kunj1311" /> </p>
 
 - 🔭 I’m currently working on **Coders Point**
 
