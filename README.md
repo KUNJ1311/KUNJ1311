@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Kunj Faladu</h1>
 
-[![](https://visitcount.itsvg.in/api?id=KUNJ1311&label=Profile%20Views&color=0&icon=3&pretty=false)](https://visitcount.itsvg.in)
+![counter]([https://github.com/KUNJ1311].m.pipedream.net)
 
 - 🔭 I’m currently working on **Coders Point**
 
