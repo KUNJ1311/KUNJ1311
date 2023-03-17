@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Kunj Faladu</h1>
 
-[![](https://visitcount.itsvg.in/api?id=KUNJ1311&icon=3&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=KUNJ1311&label=Profile%20Views&color=0&icon=3&pretty=false)](https://visitcount.itsvg.in)
 
 - 🔭 I’m currently working on **Coders Point**
 
