@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Kunj Faladu</h1>
 
-![counter]([https://github.com/KUNJ1311].m.pipedream.net)
+![Visitor Count](https://profile-counter.glitch.me/KUNJ1311/count.svg)
 
 - 🔭 I’m currently working on **Coders Point**
 
