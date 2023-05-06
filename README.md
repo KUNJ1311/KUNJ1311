@@ -2,8 +2,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kunj1311&label=Profile%20views&color=0e75b6&style=flat" alt="kunj1311" /> </p>
 
-- 🔭 I’m currently working on **Coders Point**
-
 - 🌱 I’m currently learning **MERN Stack**
 
 - 👨‍💻 All of my projects are available at [coming soon.....]
