@@ -34,8 +34,8 @@
   </table>   
   <table align="center">
   <tr>
-    <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=KUNJ1311&theme=dracula&hide_border=false">
+    <td align="center" colspan="2">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=KUNJ1311&theme=dracula&hide_border=true">
     </td>
   </tr>
   </table>
