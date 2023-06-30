@@ -41,7 +41,3 @@
   </table>
 </div>
 
-![](./profile-3d-contrib/profile-night-view.svg)
-
-<!-- ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=KUNJ1311&theme=radical&no-frame=true&no-bg=true&margin-w=4) -->
