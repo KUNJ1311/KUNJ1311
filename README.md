@@ -23,10 +23,10 @@
   <table align="center">
   <tr>
     <td align="center">
-      <img alt="Contributions" src="https://github.com/KUNJ1311/github-stats-transparent/blob/output/generated/overview.svg"  >
+      <img alt="Contributions" src="https://github.com/KUNJ1311/KUNJ1311/blob/output/generated/overview.svg"  >
     </td>
     <td align="center">
-       <img src ="https://github.com/KUNJ1311/github-stats-transparent/blob/output/generated/languages.svg">
+       <img src ="https://github.com/KUNJ1311/KUNJ1311/blob/output/generated/languages.svg">
     </td>
   </tr>
   </table>   
