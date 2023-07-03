@@ -24,23 +24,10 @@
 
 ## 📊 GitHub Stats:
 
-<div>
-  <table align="center">
-  <tr>
-    <td align="center">
-      <img alt="Contributions" src="https://github.com/KUNJ1311/KUNJ1311/blob/output/generated/overview.svg"  >
-    </td>
-    <td align="center">
-       <img src ="https://github.com/KUNJ1311/KUNJ1311/blob/output/generated/languages.svg">
-    </td>
-  </tr>
-  </table>   
-  <table align="center">
-  <tr>
-    <td align="center" colspan="2">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=KUNJ1311&theme=dracula&hide_border=true">
-    </td>
-  </tr>
-  </table>
+<div align="center">
+  <img alt="Contributions" src="https://github.com/KUNJ1311/KUNJ1311/blob/output/generated/overview.svg" >
+  <img src ="https://github.com/KUNJ1311/KUNJ1311/blob/output/generated/languages.svg" >
 </div>
-
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KUNJ1311&theme=dracula&hide_border=true">
+</div>
