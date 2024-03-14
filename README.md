@@ -6,7 +6,7 @@
 
 - 📫 How to reach me **kunjfaladu1311@gmail.com**
 
-- 📄 Know about my experiences [coming soon.....]
+- 📄 Know about my experiences - ![Resume](https://drive.google.com/file/d/1iLW35s6zgitg1koj-sHp9-GGCsgdFjPZ/view?usp=drivesdk)
 
 
 ## 🌐 Socials:
