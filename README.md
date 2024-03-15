@@ -28,4 +28,4 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KUNJ1311&theme=dracula&hide_border=true">
 </div>
 
-![Snake animation](https://raw.githubusercontent.com/{username}/{username}/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://github.com/KUNJ1311/KUNJ1311/blob/snake/github-contribution-grid-snake-dark.svg)
