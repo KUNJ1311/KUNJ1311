@@ -13,7 +13,7 @@
 <p align="left">
 <a href="https://www.linkedin.com/in/kunj-faladu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kunj1311" height="30" width="40" /></a>
 <a href="https://leetcode.com/kunj1311" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="kunj1311" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/kunjfaladu131" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="kunj1311" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/profile/kunjfaladu1311" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="kunj1311" height="30" width="40" /></a>
 </p>
 
 ## 💻 Tech Stack:
