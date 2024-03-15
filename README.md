@@ -1,6 +1,6 @@
-<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> , I'm Kunj Faladu</h1>
+<img align="center" alt="coding" src="https://github.com/KUNJ1311/KUNJ1311/assets/74526794/9863f732-dd1d-456b-94a7-5409e07c9792">
 
-<img align="right" alt="coding" width="300" src="https://github.com/KUNJ1311/KUNJ1311/assets/74526794/c8c1f597-67d7-44af-a088-9aa44a8c3df5">
+<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> , I'm Kunj Faladu</h1>
 
 - 🌱 I’m currently learning **MERN Stack**
 
