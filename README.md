@@ -1,4 +1,6 @@
-<h1 align="center">Hi 👋, I'm Kunj Faladu</h1>
+<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> , I'm Kunj Faladu</h1>
+
+<img align="right" alt="coding" width="300" src="https://github.com/KUNJ1311/KUNJ1311/assets/74526794/c8c1f597-67d7-44af-a088-9aa44a8c3df5">
 
 - 🌱 I’m currently learning **MERN Stack**
 
@@ -28,4 +30,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KUNJ1311&theme=dracula&hide_border=true">
 </div>
 
-![Snake animation](https://github.com/KUNJ1311/KUNJ1311/blob/snake/github-contribution-grid-snake-dark.svg)
+<div align="center">
+  <img src="https://github.com/KUNJ1311/KUNJ1311/blob/snake/github-contribution-grid-snake-dark.svg">
+</div>
