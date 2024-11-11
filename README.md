@@ -31,5 +31,5 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/KUNJ1311/KUNJ1311/blob/snake/github-contribution-grid-snake.svg">
+  <img src="https://github.com/KUNJ1311/KUNJ1311/blob/snake/github-contribution-grid-snake-dark.svg">
 </div>
