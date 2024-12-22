@@ -19,7 +19,7 @@
 </p>
 
 ## 💻 Tech Stack:
-![My Skills](https://skillicons.dev/icons?i=react,nextjs,js,java,redux,nodejs,express,mongodb,mysql,bootstrap,tailwind,azure,firebase,docker,rabbitmq,prisma,sass,html,css,python,git,linux)
+![My Skills](https://skillicons.dev/icons?i=react,nextjs,js,java,redux,nodejs,express,mongodb,mysql,bootstrap,tailwind,azure,firebase,docker,rabbitmq,redis,prisma,sass,html,css,python,git,linux)
 
 ## 📊 GitHub Stats:
 <div align="center">
