@@ -4,7 +4,7 @@
 
 - 🌱 I’m currently learning **MERN Stack**
 
-- 👨‍💻 All of my projects are available at [coming soon.....]
+[//]: # (- 👨‍💻 All of my projects are available at [coming soon.....])
 
 - 📫 How to reach me **kunjfaladu1311@gmail.com**
 
