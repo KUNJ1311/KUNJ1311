@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 495 195" width="495px" height="195px" direction="ltr">
+    <style>
+        @keyframes currstreak {
+            0% { font-size: 3px; opacity: 0.2; }
+            80% { font-size: 34px; opacity: 1; }
+            100% { font-size: 28px; opacity: 1; }
+        }
+        @keyframes fadein {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+    <defs>
+        <clipPath id="_clipPath_OZGVkNtlxRZM">
+            <rect width="495" height="195"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_OZGVkNtlxRZM)">
+        <g style="isolation:isolate">
+            <rect width="495" height="195" style="fill:{{ background }}" stroke-width="1.5" stroke="{{ border }}" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        </g>
+        <line x1="330" y1="28" x2="330" y2="170" vector-effect="non-scaling-stroke" stroke-width="1" stroke="{{ stroke }}" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <line x1="165" y1="28" x2="165" y2="170" vector-effect="non-scaling-stroke" stroke-width="1" stroke="{{ stroke }}" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        
+        <!-- Total Contributions -->
+        <g transform="translate(0, 0)">
+            <g transform="translate(25, 48)">
+                <text x="57.5" y="0" style="font-family:'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:14px;font-style:normal;fill:{{ sideLabels }};stroke:none;animation:fadein 0.5s ease-in-out forwards">Total Contributions</text>
+            </g>
+            <g transform="translate(25, 84)">
+                <text x="57.5" y="0" style="font-family:'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:28px;font-style:normal;fill:{{ sideNums }};stroke:none;animation:fadein 0.5s ease-in-out forwards">{{ total_contributions }}</text>
+            </g>
+        </g>
+        
+        <!-- Current Streak -->
+        <g transform="translate(165, 0)">
+            <g transform="translate(82.5, 48)">
+                <text x="0" y="0" style="font-family:'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:14px;font-style:normal;fill:{{ currStreakLabel }};stroke:none;text-anchor:middle;animation:fadein 0.5s ease-in-out forwards">Current Streak</text>
+            </g>
+            <g transform="translate(82.5, 108)">
+                <text x="0" y="-20" style="font-family:'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:28px;font-style:normal;fill:{{ currStreakNum }};stroke:none;text-anchor:middle;animation:currstreak 0.6s ease-in-out forwards">{{ current_streak }}</text>
+                <text x="0" y="12" style="font-family:'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:400;font-size:14px;font-style:normal;fill:{{ dates }};stroke:none;text-anchor:middle;animation:fadein 0.5s ease-in-out forwards">{{ date_range }}</text>
+            </g>
+            <g transform="translate(40, 71)">
+                <circle r="40" cx="42.5" cy="42.5" fill="none" stroke="{{ ring }}" stroke-width="5" style="animation:fadein 0.5s ease-in-out forwards"/>
+                <g transform="translate(19, 22)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512">
+                        <path fill="{{ fire }}" d="M350.6 69.5C345.7 45 324.4 28.6 315.6 35c-4.5 3.3-2.7 20.2 1.8 41.9C311.7 56.3 289 30 264.7 30c-11.7 0-15.7 19.8-9.9 45.4-9.5-15.5-22.4-28.9-36.3-28.9-7.6 0-12.3 15.8-7.6 36.4-8.2-12-18.2-20.3-28.7-20.3-17 0-25.1 38.4-18.5 67.2C120.9 159 103 204.6 103 256c0 109.4 64.6 198 144.5 198 79.9 0 144.5-88.6 144.5-198 0-53.1-18.6-100.4-62.2-131.7 0-.1 12.1-35.8 20.8-54.8z"/>
+                    </svg>
+                </g>
+            </g>
+        </g>
+        
+        <!-- Longest Streak -->
+        <g transform="translate(330, 0)">
+            <g transform="translate(82.5, 48)">
+                <text x="0" y="0" style="font-family:'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:14px;font-style:normal;fill:{{ sideLabels }};stroke:none;text-anchor:middle;animation:fadein 0.5s ease-in-out forwards">Longest Streak</text>
+            </g>
+            <g transform="translate(82.5, 84)">
+                <text x="0" y="0" style="font-family:'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:28px;font-style:normal;fill:{{ sideNums }};stroke:none;text-anchor:middle;animation:fadein 0.5s ease-in-out forwards">{{ longest_streak }}</text>
+            </g>
+        </g>
+    </g>
+</svg>
