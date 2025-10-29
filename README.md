@@ -27,7 +27,7 @@
   <img src ="https://github.com/KUNJ1311/KUNJ1311/blob/output/generated/languages.svg" >
 </div>
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=KUNJ1311&theme=dracula&hide_border=true" alt="GitHub Streak" >
+  <img src="https://github.com/KUNJ1311/KUNJ1311/blob/output/generated/streak-stats.svg" alt="GitHub Streak" >
 </div>
 
 <div align="center">

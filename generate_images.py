@@ -7,6 +7,7 @@ import re
 import aiohttp
 
 from github_stats import Stats
+from streak_stats import StreakStats, generate_svg as generate_streak_svg
 
 
 ################################################################################
@@ -92,6 +93,25 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
         f.write(output)
 
 
+async def generate_streak_stats(username: str, access_token: str, session: aiohttp.ClientSession) -> None:
+    """
+    Generate GitHub streak stats SVG with Dracula theme
+    :param username: GitHub username
+    :param access_token: GitHub access token
+    :param session: aiohttp ClientSession
+    """
+    streak_stats = StreakStats(username, access_token, session)
+    stats = await streak_stats.get_stats()
+    
+    print(f"Streak Stats - Total: {stats['totalContributions']}, Current: {stats['currentStreak']}, Longest: {stats['longestStreak']}")
+    
+    svg_content = generate_streak_svg(stats)
+    
+    generate_output_folder()
+    with open("generated/streak-stats.svg", "w") as f:
+        f.write(svg_content)
+
+
 ################################################################################
 # Main Function
 ################################################################################
@@ -116,7 +136,11 @@ async def main() -> None:
         s = Stats(user, access_token, session, exclude_repos=exclude_repos,
                   exclude_langs=exclude_langs,
                   consider_forked_repos=consider_forked_repos)
-        await asyncio.gather(generate_languages(s), generate_overview(s))
+        await asyncio.gather(
+            generate_languages(s), 
+            generate_overview(s),
+            generate_streak_stats(user, access_token, session)
+        )
 
 
 if __name__ == "__main__":
