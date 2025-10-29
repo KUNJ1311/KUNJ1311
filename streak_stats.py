@@ -220,22 +220,22 @@ def generate_svg(stats: Dict) -> str:
     date_range = f"{start_date} - Present" if start_date != "N/A" else "No active streak"
     
     # Replace theme colors
-    output = re.sub(r"{{ background }}", theme["background"], output)
-    output = re.sub(r"{{ border }}", theme["border"], output)
-    output = re.sub(r"{{ stroke }}", theme["stroke"], output)
-    output = re.sub(r"{{ ring }}", theme["ring"], output)
-    output = re.sub(r"{{ fire }}", theme["fire"], output)
-    output = re.sub(r"{{ currStreakNum }}", theme["currStreakNum"], output)
-    output = re.sub(r"{{ sideNums }}", theme["sideNums"], output)
-    output = re.sub(r"{{ currStreakLabel }}", theme["currStreakLabel"], output)
-    output = re.sub(r"{{ sideLabels }}", theme["sideLabels"], output)
-    output = re.sub(r"{{ dates }}", theme["dates"], output)
+    output = re.sub("{{ background }}", theme["background"], output)
+    output = re.sub("{{ border }}", theme["border"], output)
+    output = re.sub("{{ stroke }}", theme["stroke"], output)
+    output = re.sub("{{ ring }}", theme["ring"], output)
+    output = re.sub("{{ fire }}", theme["fire"], output)
+    output = re.sub("{{ currStreakNum }}", theme["currStreakNum"], output)
+    output = re.sub("{{ sideNums }}", theme["sideNums"], output)
+    output = re.sub("{{ currStreakLabel }}", theme["currStreakLabel"], output)
+    output = re.sub("{{ sideLabels }}", theme["sideLabels"], output)
+    output = re.sub("{{ dates }}", theme["dates"], output)
     
     # Replace data values
-    output = re.sub(r"{{ total_contributions }}", f"{total_contributions:,}", output)
-    output = re.sub(r"{{ current_streak }}", str(current_streak), output)
-    output = re.sub(r"{{ longest_streak }}", str(longest_streak), output)
-    output = re.sub(r"{{ date_range }}", date_range, output)
+    output = re.sub("{{ total_contributions }}", f"{total_contributions:,}", output)
+    output = re.sub("{{ current_streak }}", str(current_streak), output)
+    output = re.sub("{{ longest_streak }}", str(longest_streak), output)
+    output = re.sub("{{ date_range }}", date_range, output)
     
     return output
 
