@@ -22,9 +22,6 @@ class StreakStats:
         """
         Fetch contribution calendar data from GitHub GraphQL API
         """
-        # Get the current year and calculate years back to account creation
-        current_year = datetime.now().year
-        
         query = """
         query($username: String!) {
           user(login: $username) {
@@ -62,12 +59,16 @@ class StreakStats:
         except Exception as e:
             print(f"Error fetching contribution calendar: {e}")
             # Fallback to requests
-            r = requests.post(
-                "https://api.github.com/graphql",
-                headers=headers,
-                json={"query": query, "variables": variables}
-            )
-            return r.json()
+            try:
+                r = requests.post(
+                    "https://api.github.com/graphql",
+                    headers=headers,
+                    json={"query": query, "variables": variables}
+                )
+                return r.json()
+            except Exception as fallback_error:
+                print(f"Fallback request also failed: {fallback_error}")
+                return {}
     
     def calculate_streaks(self, contribution_data: Dict) -> Tuple[int, int, int, str, str]:
         """
@@ -109,10 +110,13 @@ class StreakStats:
                         # Streak is broken
                         break
                 elif day_date < today - timedelta(days=1):
-                    if day["contributionCount"] > 0 and current_streak > 0:
+                    if day["contributionCount"] > 0:
+                        if current_streak == 0:
+                            # No active streak found
+                            break
                         current_streak += 1
                         current_streak_start = day["date"]
-                    elif current_streak > 0:
+                    else:
                         # Streak ended
                         break
             
@@ -139,13 +143,11 @@ class StreakStats:
                     else:
                         temp_streak = 1
                         temp_start = day["date"]
-                        if temp_streak > longest_streak:
-                            longest_streak = temp_streak
-                            longest_start = temp_start
-                            longest_end = day["date"]
                     prev_date = day_date
-                else:
-                    prev_date = None
+                elif temp_streak > 0:
+                    # Reset streak when there are no contributions
+                    temp_streak = 0
+                    temp_start = None
             
             return (
                 current_streak,
@@ -181,7 +183,7 @@ def format_date(date_str: str) -> str:
     try:
         date = datetime.strptime(date_str, "%Y-%m-%d")
         return date.strftime("%b %d")
-    except:
+    except (ValueError, TypeError):
         return date_str
 
 
