@@ -8,7 +8,7 @@
 
 - 📫 How to reach me **kunjfaladu1311@gmail.com**
 
-- 📄 Know about my experiences - [Resume](https://drive.google.com/file/d/1D_xxDgM0UbxeaVSHdh11kQ0i-mNLO99t/view?usp=drivesdk)
+- 📄 Know about my experiences - [Resume](https://drive.google.com/file/d/1nfROxG7GABGKZ1k-U30ZvQ5nHhip_I0o/view?usp=sharing)
 
  
 ## 🌐 Socials:
